@@ -3,12 +3,15 @@ const { ApolloServer } = require("apollo-server");
 const path = require("path");
 const fs = require("fs");
 
+// The name of the directory where you'd like to store your workspaces
+const WORKSPACE_DIR = `.data`;
+
 // Check if there's a folder for workspaces to be stored
-const workspacesDirExists = fs.existsSync(path.resolve("./workspaces"));
+const workspacesDirExists = fs.existsSync(path.resolve(WORKSPACE_DIR));
 
 // If not, create it
 if (!workspacesDirExists) {
-  fs.mkdirSync(path.resolve("./workspaces"));
+  fs.mkdirSync(path.resolve(WORKSPACE_DIR));
 }
 
 // Create a schema context
@@ -17,9 +20,9 @@ if (!workspacesDirExists) {
 // e.g. whether new workspaces can be added
 const context = createSchemaContext("SQLITE", {
   // Enter the names of your workspaces here
-  workspaceAddresses: ["+earthstardev.99"],
+  workspaceAddresses: ["+gardening.xxxxxxxxxxxxxxxxxxxx"],
   // Don't change this unless you want to change where workspaces are stored
-  getWorkspacePath: (addr) => path.resolve(`./workspaces/${addr}.sqlite`),
+  getWorkspacePath: (addr) => path.join(WORKSPACE_DIR, `${addr}.sqlite`),
 });
 
 // Create a new GraphQL server
