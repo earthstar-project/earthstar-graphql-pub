@@ -1,0 +1,15 @@
+{
+  "name": "earthstar-graphql-pub",
+  "version": "1.0.0",
+  "description": "An Earthstar Pub using GraphQL!",
+  "main": "server.js",
+  "author": "Sam Gwilym",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "apollo-server": "^2.16.1",
+    "earthstar-graphql": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
