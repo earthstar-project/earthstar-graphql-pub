@@ -1,6 +1,6 @@
 {
   "name": "earthstar-graphql-pub",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "An Earthstar Pub using GraphQL!",
   "main": "server.js",
   "author": "Sam Gwilym",
