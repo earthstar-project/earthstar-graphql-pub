@@ -7,7 +7,7 @@
   "license": "AGPL-3.0",
   "dependencies": {
     "apollo-server": "^2.16.1",
-    "earthstar-graphql": "4.0.1",
+    "earthstar-graphql": "4.1.0",
     "graphql": "^15.3.0"
   },
   "engines": {
