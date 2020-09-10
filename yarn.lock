@@ -743,10 +743,10 @@ dicer@0.3.0:
   dependencies:
     streamsearch "0.1.2"
 
-earthstar-graphql@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/earthstar-graphql/-/earthstar-graphql-6.0.0.tgz#525a9afed1ebbd90749d4fc0a70bb2d343b26386"
-  integrity sha512-Jibwj6rLbBzSO1AMcjteBISrDgr2OISZKGFBiM9RD+S84lZs9+UYamFvwuVAT3LjHPpogG3liBK2B8Q6z7WB1Q==
+earthstar-graphql@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/earthstar-graphql/-/earthstar-graphql-6.1.0.tgz#1c574ed9e3e8bd691f0d2fd0d90f238076f83611"
+  integrity sha512-KetMueAEQ5Hqnoq6fOSQAf/LTV1ZaGGQ8C7sYoVnPBWVLMyRnaqRMw7donzduLj0IXeEU621C/69ZD+JbEHkUg==
   dependencies:
     cross-fetch "^3.0.5"
     graphql-type-json "0.3.2"

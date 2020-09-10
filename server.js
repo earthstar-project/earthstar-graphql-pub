@@ -49,6 +49,7 @@ const context = createSchemaContext("SQLITE", {
   ),
   // Don't change this unless you want to change where workspaces are stored
   getWorkspacePath: (addr) => path.join(WORKSPACE_DIR, `${addr}.sqlite`),
+  isPub: true
 });
 
 // Create a new GraphQL server
