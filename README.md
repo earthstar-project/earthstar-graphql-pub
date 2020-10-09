@@ -1,5 +1,7 @@
 # Earthstar GraphQL Pub
 
+Archived away as an interesting experiment — though one which I wouldn't want to be adopted widely, so as not to increase the number of things earthstar client authors need to think about.
+
 <a href="https://glitch.com/edit/#!/import/github/earthstar-project/earthstar-graphql-pub"><img src="https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg" alt="Remix on Glitch" /></a>
 
 Hosts [Earthstar](https://github.com/cinnamon-bun/earthstar) workspaces, and makes them accessible via a GraphQL API.
